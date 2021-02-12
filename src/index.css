@@ -1,0 +1,103 @@
+body {
+  margin: auto;
+  font-family:  cursive;
+  
+}
+
+
+:root {
+  --text: #FFEB3B;
+}
+
+.App {
+  margin:200px auto;
+  width: 500px;
+  border-radius: 5px;
+  border: 3px solid #263238;
+  box-shadow: 0 3px 15px #263238;
+  overflow: hidden;
+  background: #CFD8DC;
+}
+
+.top {
+  background: var(--text);
+  color: #263238;
+  padding: 10px;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2x solid #263238;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: var(--text);
+  display: flex;
+  padding: 5px;
+}
+
+.task-input * {
+  border-radius: 5px;
+  border: 2x solid #263238;
+  
+}
+
+.task-input input {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #263238;
+}
+
+.task-input button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #263238;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.task {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+  color:#263238;
+}
+
+.task:hover {
+  background-color: #04395e3d;
+}
+
+.task p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  color: #263238;
+}
+
+.task-done {
+  background-color: #3a373727;
+  display: flex;
+  justify-content: space-between;
+}
+.task-done p {
+  color: #00000050;
+}
+
+.action-btn {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.action-btn:hover {
+  background-color: #04395e3d;
+  border-radius: 5px;
+}
