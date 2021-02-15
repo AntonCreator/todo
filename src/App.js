@@ -24,14 +24,14 @@ class App extends React.Component {
 
     this.setState(state => {
     let {tasks} = state
-    let newArr = tasks.slice(0,tasks.length)
-    tasks.push({id: tasks.length !== 0 ? task.length : 0,
+    
+    tasks.push({id: tasks.length !== 0 ? tasks.length : 0,
     title : task,
     done : false
     
     }
     ) 
-    tasks = [...newArr]   
+       
     console.log(tasks) 
       return tasks;
     })
