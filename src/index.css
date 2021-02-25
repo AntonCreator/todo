@@ -101,3 +101,66 @@ body {
   background-color: #04395e3d;
   border-radius: 5px;
 }
+
+.randombar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFEB3B;
+  width: auto;
+  border-top: 3px solid #333;
+  padding: 10px;
+}
+
+.bones {
+  width: 100px;
+  height: 80px;
+  
+}
+
+.btn-random {
+  border : none;
+  background: #FFEB3B
+}
+
+.taskGenerator {
+  text-align: center;
+}
+
+.btn-create {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+
+.btn { font-size: 15px;
+  font-family: cursive;
+  height: 35px;
+  border-radius: 5px;
+  border : 2px solid #333;
+  margin: 10px;
+
+}
+
+.btn-1 {
+  background: yellow;
+}
+
+.btn-2 {
+  background-color: rgb(39, 184, 39);
+  color:honeydew;
+}
+
+#putTask {
+  padding : 10px;
+  margin : 10px;
+  border : 2px solid #333;
+  border-radius: 8px;
+
+}
+
+.by {
+  text-align: left;
+  margin:-20px -20px 10px 10px;
+}

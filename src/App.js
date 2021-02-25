@@ -1,6 +1,7 @@
 import React from "react";
 import Task from "./components/task";
 import Taskinput from "./components/taskinput"
+import Random from "./components/randomtodo"
 
 class App extends React.Component {
   constructor(props) {
@@ -74,6 +75,7 @@ class App extends React.Component {
       task={task}
       key={task.id}/>))}
       <Taskinput addTask = {this.addTask}></Taskinput>
+      <Random addTask = {this.addTask}/>
       </div>
        
  
